@@ -81,14 +81,7 @@
                     Valid first name is required.
                 </div>
             </div>
-            <div class="col-sm-6 mb-2">
-                <label for="firstName" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" placeholder="07xxxxxxxx" id="number" name="phoneNumber"
-                    required>
-                <div class="invalid-feedback">
-                    Valid first name is required.
-                </div>
-            </div>
+           
 
             <div class="col-md-5">
                 <label for="country" class="form-label">Grade</label>
@@ -117,6 +110,45 @@
                 </div>
 
             </div>
+            <h5>Major</h5>
+            <div class="my-2 col-sm-6">
+                <div class="form-check">
+                    <input id="credit" name="major" type="radio" class="form-check-input" value="male" 
+                        required="">
+                    <label class="form-check-label" for="credit">Administration</label>
+                </div>
+                <div class="form-check">
+                    <input id="debit" name="major" type="radio" class="form-check-input" value="IT" required="">
+                    <label class="form-check-label" for="debit">IT</label>
+                </div>
+                <div class="form-check">
+                    <input id="debit" name="major" type="radio" class="form-check-input" value="science" required="">
+                    <label class="form-check-label" for="debit">Science</label>
+                </div>
+                <div class="form-check">
+                    <input id="debit" name="major" type="radio" class="form-check-input" value="Art" required="">
+                    <label class="form-check-label" for="debit">Art</label>
+                </div>
+
+            </div>
+            <div class="row mb-3">
+            <div class="col-sm-6 mb-2">
+                <label for="firstName" class="form-label">Image URL</label>
+                <input type="url" class="form-control" placeholder="place the img url here..." id="image" name="image"
+                    required>
+                <div class="invalid-feedback">
+                    Valid first name is required.
+                </div>
+            </div>
+            <div class="col-sm-6 mb-2">
+                <label for="firstName" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" placeholder="07xxxxxxxx" id="number" name="phoneNumber"
+                    required>
+                <div class="invalid-feedback">
+                    Valid first name is required.
+                </div>
+            </div>
+        </div>
             <input type="submit" class="form-control">
         </form>
 
@@ -146,6 +178,11 @@
 
     </div>
     <!-- --------------------------------end of table-------------------------------- -->
+    <div id="card">
+
+
+        
+    </div>
     <div style="background-color: #232a46e9;">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
